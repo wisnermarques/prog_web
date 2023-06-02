@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            /* aplica cor de fundo na página */
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        #titulo {
+            color: coral;
+            font-size: 20px;
+            border-bottom: 5px solid brown;
+
+        }
+
+        img {
+            width: 200px;
+            border: 5px solid greenyellow;
+        }
+
+        #img {
+            width: 200px;
+            border: 5px solid white;
+        }
+
+        p,
+        h1 {
+            /* comentário css */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 100px;
+        }
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Comentário html-->
+    <header id="header">
+        <h2>&lt/&gt Programador Web</h2>
+        <nav class="nav">
+            <ul id="ul">
+                <li><a style="color:beige; text-decoration: underline;" href="index.html">Home</a></li>
+                <li> <a href="sobre.html">Sobre</a></li>
+                <li> <a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Olá Mundo!</h1>
+        <h1 id="titulo">Página inicial</h1>
+        <p>Curso programador Web. <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit. Et eaque
+            architecto nostrum
+            molestias quibusdam eligendi cum consectetur, consequatur porro ducimus voluptas? Vel sunt recusandae,
+            cumque
+            consequuntur <u><em>voluptatibus</em></u> iusto ea quod.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Voluptatibus quod optio quisquam tenetur
+            officiis
+            <b>doloremque</b> totam necessitatibus dolor. Quis perspiciatis sed doloribus officiis dignissimos nobis
+            similique odit
+            unde ipsam ullam.
+        </p>
+        <img src="image/paisagem.jpg" alt="Paisagem com uma árvore">
+        <img id="img"
+            src="https://cdn.leroymerlin.com.br/products/papel_de_parede_paisagem_lago_natureza_sala_painel_052pcp_1567477748_af15_600x600.jpg"
+            alt="Paisagem">
+        <!-- Isso é um comentário html -->
+        <hr>
+        <h2 class="titulo-dois">Lista não ordenada:</h2>
+        <ul>
+            <li>Café</li>
+            <li>Leite</li>
+            <li>Adoçante</li>
+        </ul>
+        <h2 class="titulo-dois ">Lista ordenada:</h2>
+        <ol>
+            <li>Segunda</li>
+            <li>Terça</li>
+            <li>Quarta</li>
+            <li>Quinta</li>
+            <li>Sexta</li>
+        </ol>
+        <h2 class="titulo-dois">Lista com sublista:</h2>
+        <ul>
+            <li>Programador Web</li>
+            <ul>
+                <li>UC1</li>
+                <li>UC2</li>
+            </ul>
+            <li>Programador de Sistemas</li>
+            <ol>
+                <li>UC1</li>
+                <li>UC2</li>
+            </ol>
+        </ul>
+        <hr>
+        <div class="links">
+            <a href="https://bibliotecadigitalsenac.com.br/" target="_blank">Biblioteca Digital Senac</a>
+            <hr>
+            <a href="#header">Subir</a>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por &copy <span>Wisner</span></p>
+    </footer>
+</body>
+
+</html>
