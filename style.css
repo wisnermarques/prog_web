@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+:target {
+  scroll-margin-top: .8em;
+}
+
 header {
     background-color: black;
     height: 10vh;
