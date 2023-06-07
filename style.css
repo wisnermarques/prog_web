@@ -5,12 +5,20 @@
 }
 
 html {
+<<<<<<< HEAD
     scroll-behavior: smooth;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 :target {
     scroll-margin-top: .8em;
+=======
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+>>>>>>> df506c5d2ad0acc16c718d90369f68a86447ccae
 }
 
 header {
@@ -105,6 +113,7 @@ footer {
 span {
     font-weight: bold;
 }
+<<<<<<< HEAD
 
 form, #form-title {
     width: 450px;
@@ -164,3 +173,5 @@ input[type="reset"]:hover {
     border-color: #ff3913;
     background-color: transparent;
 }
+=======
+>>>>>>> df506c5d2ad0acc16c718d90369f68a86447ccae
